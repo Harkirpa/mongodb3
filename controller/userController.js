@@ -187,14 +187,4 @@ const data7=async(req,res)=>{
     return res.send(data)
 }
 
-// const login=async(req,res)=>{
-//     const data={
-//         email:"kirpa704@gmail.com",
-//         password:"test",
-//     }
-// }
-// const result=await UserAccount.find({data})
-// console.log(result)
-// return res.send(result)
-
 module.exports={register,data2,data3,data4,data5,data6,data7}

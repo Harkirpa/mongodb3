@@ -1,6 +1,5 @@
 const { register, data2, data3, data4, data5, data6, data7 } = require("../controller/userController");
 const userRouter=require("express").Router();
-// // userRouter.get("/login",login)
 userRouter.get("/register",register)
 userRouter.post("/data2",data2)
 userRouter.get("/data3",data3)
